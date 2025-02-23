@@ -47,8 +47,8 @@ class _HomePageState extends State<HomePage> {
           children: [
             TextButton(
               onPressed: () async {
-                //final status = await FlutterOverlayWindow.isPermissionGranted();
-                //log("Is Permission Granted: $status");
+                final status = await FlutterOverlayWindow.isPermissionGranted();
+                log("Is Permission Granted: $status");
               },
               child: const Text("Check Permission"),
             ),
