@@ -4,7 +4,7 @@ import 'package:flutter_system_overlay/home/features/views/home_view.dart';
 import 'home/data/constants/home_colors.dart';
 
 
-import 'home/features/widgets/true_caller_overlay.dart';
+import 'home/features/widgets/reminder_overlay.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +17,7 @@ void overlayMain() {
   runApp(
     const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TrueCallerOverlay(),
+      home: ReminderOverlay(),
     ),
   );
 }
